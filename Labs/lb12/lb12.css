@@ -1,0 +1,79 @@
+.dropdown{
+  position: relative;
+  display: inline-block;
+  color:black;
+}
+.dropDownContent{
+  display: none;
+  position: absolute;
+  background-color: #9FBB9C;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+  padding: 12px 16px;
+  z-index: 1;
+  color: black;
+  text-decoration: none;
+}
+.dropdown:hover .dropDownContent{
+  display:block;
+}
+
+/* Style the Dropdown Button"*/
+.drpMenu{
+  background-color: #9FBB9C;
+  color: azure;
+  padding: 16px;
+  margin:10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/*Change the background color of the dropdown button when the dropdown content is shown*/
+.dropdown:hover .drpMenu{
+  background-color: azure;
+  color: #9FBB9C;
+}
+/*Links inside the dropdown */
+.dropdown a{
+  color: black;
+  background-color: gray;
+  border: 1px solid black; 
+  padding: 12px 16px;
+  text-decoration: none;
+  display: none;
+}
+
+.dropdown:hover a{
+  display: block;
+  background-color: #9FBB9C;
+  color: cornsilk;
+  border: 0.1px solid white;
+}
+.dropdown:hover a:hover{
+   color: black;
+  background-color: beige;
+  border: 1px solid black; 
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.dropDownContent img:hover{
+  width: 400px;
+}
+
+.dropdown img{
+  border: 10px dotted #E9C261;
+}
+
+.caption{
+   padding: 15px;
+  text-align: center;
+  display: none;
+}
+
+.dropDownContent:hover .caption{
+  display:block;
+  color: white;
+  background-color: #173705;
+}

@@ -1,0 +1,47 @@
+/* Creates a box */
+*{
+  box-sizing: border-box;
+}
+/* Style of box */
+body{
+  background-color: #ffffff;
+  color: white;
+  font-family: Garamond, serif;
+  font-size: 20px;
+  }
+/* Style of the header */
+/* Style the navigation bar */
+.topnav{
+  background-color: #9FBB9C;
+  overflow: hidden;
+}
+.topnav a{
+  color: azure;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0px;
+}
+/* Change color on hover or mouse over */
+.topnav a:hover{
+  background-color:rgb(241, 230, 212);
+  color:black;
+}
+.header{
+  background-color: #9FBB9C;
+  padding:0px;
+  margin-top: 5px;
+  text-align: center;
+  color: white;
+}
+
+/*Creates 3 equal colums that float next to each other */
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  background-color: #e1d3c6;
+  box-shadow: 10px 10px 8px #88684a;
+}
+

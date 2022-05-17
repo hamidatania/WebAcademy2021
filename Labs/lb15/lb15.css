@@ -1,0 +1,13 @@
+body{
+  background-color: #9FBB9C;
+  color: white;
+  font-family: Garamond, serif;
+  font-size: 20px;
+  }
+
+button{
+  background-color: #9FBB9C;
+  color: white;
+   padding: 16px 32px;
+  border: solid black 3px;
+}

@@ -1,0 +1,161 @@
+/*The * selects all elements*/
+*{
+  margin:0;
+  padding: 0;
+  border-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+/*Changes the style for all elements in the body*/
+body{
+  background-color: #f2aba3;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  position: relative;
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1013-p-0001a_2-ksi86qyf.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=4cfa446604e03dc918836b165b9d3242");
+}
+/*Changes the style for all elements in the div that is classified as wrapper*/
+.wrapper{
+  display: block;
+  background-color: #f48b81;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 4px;
+  outline: #000000 solid, 7px;
+  outline-offset: -15px;
+  overflow: hidden;
+}
+/*Changes the style for all elements in the div classified as section_userform. Changes the color of the text, width, margin, and display.*/
+.section_userform{
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+}
+/*Changes the style for all elements in the div classified as input_label.*/
+.input_label{
+  width: 35%;
+  text-align: right;
+  font-size: 1.5em;
+  color: ##fbd4d3;
+}
+/*Changes the style for all elements in the div classified as break.*/
+.break{
+  display: block;
+  width: 100%;
+  margin: 2em;
+}
+/*Changes the style for all elements in the div classified as textbox.*/
+.textbox{
+  width: 50%;
+  height: 1.8em;
+  box-sizing: content-box;
+  background-color: #f2aba3;
+  border-color: #a96b6c;
+  padding-left: 1em;
+  color: white; 
+}
+/*Changes the style for all elements in the div classified as button.*/
+.button{
+  display: block;
+  margin: none;
+  padding: 0.5em, 2.55em;
+  text-transform: uppercase;
+  background-color: #a96b6c;
+  border-color: #fbd4d3;
+  font-size: 1.3em;
+  border-width: 3px;
+  border-radius: 10px;
+  border-style: solid;
+  color: #fbd4d3;
+}
+/*Changes the style for when you hover over the buttons*/
+.button:hover{
+  background-color: #fbd4d3;
+  color: #a96b6c; 
+  border-color: #a96b6c;
+  transform: scale(1.05);
+}
+/*Changes the style for all elements in the div classified as buttonWrapper.*/
+.buttonWrapper{
+  display: grid;
+  justify-content: center;
+}
+/*Changes the style for all elements in the div classified as section_info.*/
+.section_info{
+  text-align: center;
+  margin: 1em;
+  color: #fbd4d3;
+}
+/*Changes the style for only the h1 elements in the div classified as section_info.*/
+.section_info h1{
+  font-size: 5em;
+}
+/*Changes the style for all elements in the div with an id as line. Changes the color and width of the line.*/
+#line{
+  border-color: #fbd4d3;
+  width: 80%;
+  margin-bottom: 4em;
+}
+/*Changes the style for all elements in the div classified as result.*/
+.result{
+  width: 45%;
+  text-align: left;
+  display: inline-block;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+/*Changes the style for all elements in the div classified as result_label.*/
+.result_label{
+  width: 40%;
+  text-align: right;
+  display: inline-block;
+  font-size: 1.5em;
+  color: rgba(173,220,238,1);
+}
+/*Changes the style for all elements in the div with an id called before*/
+#before{
+  opacity: 1;
+  display: block;
+}
+/*Changes the style for all elements in the div with an id called after*/
+#after{
+  display: none;
+  opacity: 0;
+}
+/*Changes the style for all elements in the div with an id called input_username_button for the id after.*/
+#input_username_button:focus #after{
+  display: block;
+  opacity: 1;
+}
+/*Changes the style for all elements in the div with an id called input_username_button for the id before.*/
+#input_username_button:focus #before{
+  display: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 800px;
+}
+
+
+
+.topnav{
+  background-color: #f48b81;
+  overflow: hidden;
+}
+.topnav a{
+  color: azure;
+  float: left;
+  display: block;
+  text-align: center;
+    margin-top: 25px;
+  padding: 14px 16px;
+  margin: 10px ;
+}
+/* Change color on hover or mouse over */
+.topnav a:hover{
+  background-color:#fbd4d3;
+  color:black;
+}

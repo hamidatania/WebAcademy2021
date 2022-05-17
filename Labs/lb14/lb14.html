@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Image Sprites and Forms</title>
+  <link rel="stylesheet" href="../../mainPortafolio.css">
+  <link rel="stylesheet" href="lb14.css">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <image src="header.gif" alt="banner" width="100%" height="250px">
+
+<style>
+#navlist {
+  position: absolute;
+  top: 245px;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 44px;
+  display: block;
+}
+
+#home {
+  left: 0px;
+  width: 46px;
+  background: url("home.png") 0 0;
+}
+
+#prev {
+  left: 63px;
+  width: 43px;
+  background: url("previous.png") -47px 0;
+}
+
+#next {
+  left: 129px;
+  width: 43px;
+  background: url("next.png") -91px 0;
+}
+
+#home a:hover {
+  background: url("home.png") 0 -45px;
+}
+
+#prev a:hover {
+  background: url("previous.png") -47px -45px;
+}
+
+#next a:hover {
+  background: url("next.png") -91px -45px;
+}
+</style>
+</head>
+ 
+	<body>
+  <h2>Responsive Form</h2>
+
+<ul id="navlist">
+  <li id="home"><a href="https://webacademy2021.hamidatania.repl.co/index.html"></a></li>
+  <li id="prev"><a href="https://webacademy2021.hamidatania.repl.co/Labs/lb13/lb13.html"></a></li>
+  <li id="next"><a href="https://webacademy2021.hamidatania.repl.co/Labs/lb15/lb15.html"></a></li>
+</ul>
+    
+<center>
+
+<h1 class="header">Labs</h1>
+<div class="topnav">
+<a href="../lab1/lab1.html">LAB # 1 </a>
+  <a href="../lab2/lab2.html">LAB # 2</a>
+  <a href="../lab3/lab3.html">LAB # 3</a>
+  <a href="../lab4/lab4.html">LAB # 4 </a>
+  <a href="../lab5/lab5.html">LAB # 5 </a>
+  <a href="../lab6/lab6.html">LAB # 6 </a>
+  <a href="../lab7/lab7.html">LAB # 7 </a>
+  <a href="../lab8/lab8.html">LAB # 8 </a>
+  <a href="../lab9/lab9.html">LAB # 9 </a>
+  <a href="../lb10/lb10.html">LAB # 10 </a>
+  <a href="../lb11/lb11.html">LAB # 11 </a>
+  <a href="../lb12/lb12.html">LAB # 12 </a>
+  <a href="../lb13/lb13.html">LAB # 13 </a>
+  <a href="../lb14/lb14.html">LAB # 14 </a>
+  <a href="../lb15/lb15.html">LAB # 15 </a>
+  <a href="../lb16/lb16.html">LAB # 16 </a>
+  <a href="../lb17/lb17.html">LAB # 17 </a>
+  <a href="../lb18/lb18.html">LAB # 18 </a>
+  <a href="../lb19/lb19.html">LAB # 19 </a>
+  <a href="../lb20/lb20.html">LAB # 20 </a>
+  <a href="project2/pg1/pg1.html">Project 2 </a>
+</div>
+
+ <div style="background: #173705; color: #E9C261; border:6px; border-style:solid; border-color:#E9C261; padding:2px; margin: 30px; font-size: 15px">
+		<h1>Thomas A. Edison CTE HS</h1>
+		<h2>Web Developer Academy</h2>
+		<h3>10th Grade</h3>
+		<h4>Lab 14</h4>
+		<h5> CSS Image Sprites and Forms</h5>
+		<h6>By Hamida Tania</h6>  
+    </div>
+    </center>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+    
+<a href="../../index.html">HOMEPAGE</a>
+</body>
+</html>

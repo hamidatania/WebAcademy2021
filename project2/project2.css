@@ -1,0 +1,12 @@
+body{
+  font-family: Lucida Console, Monospace;
+  background-color: #f2aba3;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  position: relative;
+  background-image: url("bg.png");
+
+  background-size: auto;
+}
+

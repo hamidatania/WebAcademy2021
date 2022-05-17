@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <!--The head element is used for metadata and is not displayed. It usally defines the document title, CSS file, and character set.-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Register Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="lb16.css">
+  </head>
+  <!--The body elements contains all the contents of the document, such as headings and paragraphs.-->
+  <body>
+
+<div class="topnav">
+  <a href="../lab1/lab1.html">LAB # 1 </a>
+  <a href="../lab2/lab2.html">LAB # 2</a>
+  <a href="../lab3/lab3.html">LAB # 3</a>
+  <a href="../lab4/lab4.html">LAB # 4 </a>
+  <a href="../lab5/lab5.html">LAB # 5 </a>
+  <a href="../lab6/lab6.html">LAB # 6 </a>
+  <a href="../lab7/lab7.html">LAB # 7 </a>
+  <a href="../lab8/lab8.html">LAB # 8 </a>
+  <a href="../lab9/lab9.html">LAB # 9 </a>
+  <a href="../lb10/lb10.html">LAB # 10 </a>
+  <a href="../lb11/lb11.html">LAB # 11 </a>
+  <a href="../lb12/lb12.html">LAB # 12 </a>
+  <a href="../lb13/lb13.html">LAB # 13 </a>
+  <a href="../lb14/lb14.html">LAB # 14 </a>
+  <a href="../lb15/lb15.html">LAB # 15 </a>
+  <a href="../lb16/lb16.html">LAB # 16 </a>
+  <a href="../lb17/lb17.html">LAB # 17 </a>
+  <a href="../lb18/lb18.html">LAB # 18 </a>
+  <a href="../lb19/lb19.html">LAB # 19 </a>
+  <a href="../lb20/lb20.html">LAB # 20 </a>
+  <a href="project2/pg1/pg1.html">Project 2 </a>
+</div>
+
+
+
+
+    
+  <!--The div tag defines a divison or section of a document. The div is given a class and effects everything inside that div.-->
+ <div class="wrapper">
+
+ <!--The divtag defines a divison or section of a document. The div is given a id and effects everything inside that div.-->			
+			<div id="after">
+<!--The section tag defines a section of a document. It is made up for related content.-->
+				<section class="section_info">
+					<h1 style="font-size: 3.5em;  margin-bottom: 0.3em;">Registered Info</h1>
+					<h4 style="margin-bottom: 3em; color:#fff">Thank you for registering!</h4>
+				</section>
+<!--The section tag defines a section of a document. It is made up for related content.-->
+				<section class="section_userform">
+<!--The div tag defines a divison or section of a document. The div is given a class and effects everything inside that div.-->
+					<div class="break">
+						<p class="result_label">Your name:</p>
+						<p class="result" id="nameResult"></p>
+					</div>
+<!--The div tag defines a divison or section of a document. The div is given a class and effects everything inside that div.-->
+					<div class="break">
+						<p class="result_label">Your Email:</p>
+						<p class="result" id="emailResult"></p>
+					</div>
+<!--The div tag defines a divison or section of a document. The div is given a class and effects everything inside that div.-->
+					<div class="break">
+						<p class="result_label">Your Phone:</p>
+						<p class="result" id="phoneNumResult"></p>
+					</div>
+<!--The div tag defines a divison or section of a document. The div is given a class and effects everything inside that div.-->
+					<div class="break buttonWrapper">
+							<input id="goBack" class="button" type="button" value="Return" onClick="returnHome();">
+						</div>
+				</section>
+			</div>
+
+<!--The div tag defines a divison or section of a document. The div is given a id  and effects everything inside that div.-->
+			<div id="before">
+<!--The section tag defines a section of a document. It is made up for related content. It is given an id.-->		
+				<section class="section_info">
+					<h1>Register</h1>
+				</section>
+
+				<hr id="line">
+<!--The section tag defines a section of a document. It is made up for related content. It is given a class.-->
+				<section class="section_userform">
+					<form name="userform">
+            
+<!--The div tag defines a divison or section of a document. The div is given a class and effects everything inside that div.-->
+						<div class="break">
+							<p class="input_label">Name:</p>
+							<input class="textbox" id="user_name" type="text" name="input_username" placeholder=""/>
+						</div>
+            
+<!--The div tag defines a divison or section of a document. The div is given a class and effects everything inside that div.-->
+						<div class="break">
+							<p class="input_label">Email:</p>
+							<input class="textbox" id="user_email" type="text" name="input_email" placeholder=""/>
+						</div>
+            
+<!--The div tag defines a divison or section of a document. The div is given a class and effects everything inside that div.-->
+						<div class="break">
+							<p class="input_label">Phone:</p>
+							<input class="textbox" id="user_phoneNumber" type="text" name="input_phoneNum" placeholder=""/>
+						</div>
+            
+<!--The div tag defines a divison or section of a document. The div is given a class and effects everything inside that div.-->
+						<div class="break buttonWrapper">
+							<input id="input_username_button" class="button" type="button" value="submit" onClick="submitForum();">
+						</div>
+
+					</form>
+				</section>
+			</div> 
+    <script src="lb16.js"></script>
+  </body>
+</html>

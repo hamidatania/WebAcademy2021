@@ -1,0 +1,58 @@
+body{
+  background-color:#b77b7b;
+  background-image:url("bck.jpg");
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a82929;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1{
+  font-family:Comic Sans MS, sans-serif;
+}
+
+p{
+  font-family:Comic Sans MS, sans-serif;
+  font-weight:300;
+}
+
+.p1{
+  color: #0d0d0d;
+  border-radius: 10px; 
+  background: #ffffff; 
+  padding: 20px; 
+  margin: 50px; 
+  opacity: .8;
+  text-align: center;
+}
+
+.p2{
+   color: #0d0d0d;
+  border-radius: 10px; 
+  background: #ffffff; 
+  padding: 20px; 
+  margin: 50px; 
+  opacity: .8;
+  text-align: center;
+}
+
+img{
+  height:250px;
+  width:250px;
+}

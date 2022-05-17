@@ -1,0 +1,65 @@
+body{
+  background-color: #e4ebfb;
+  font-family: Monospace,	Monaco;
+   background-image: url("https://t3.ftcdn.net/jpg/04/42/25/60/360_F_442256083_EEAFXpvlE6ffs2Hgrd0hKZVZs7ZV1XQi.jpg");
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #97a6ad;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #d18b83;
+}
+
+
+.hamida{
+color: #d27092;
+  border-radius: 10px; 
+  background: #ffebf3; 
+  width: 400px;
+  height: 500px;
+  padding: 20px; 
+  margin: 70px; 
+  float: left;
+  opacity: .8;
+  text-align: center;
+}
+
+.adrianna{
+  color: #d27092;
+  border-radius: 10px; 
+  background: #ffebf3; 
+  width: 400px;
+  height: 500px;
+  padding: 20px; 
+  margin: 70px; 
+  float: right;
+  opacity: .8;
+  text-align: center;
+}
